@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class FormacaoComponent {
 
 }
+
+
+//<a href="#" class="btn btn-primary">Go somewhere</a>

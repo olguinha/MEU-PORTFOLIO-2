@@ -1,4 +1,4 @@
- import { NgModule } from '@angular/core';
+ import { NgModule, } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { FormacaoComponent } from './formacao/formacao.component';
 import { SobreComponent } from './sobre/sobre.component';
@@ -7,17 +7,14 @@ import { HabilidadeComponent } from './habilidade/habilidade.component';
 
 
 export const routes: Routes = [
-  { path: '/',  component:  FormacaoComponent },
-  { path: '/*',  component:  SobreComponent },
-  { path: '//',  component:  HabilidadeComponent },
+  { path: '#',  component:  FormacaoComponent },
+  { path: '#',  component:  SobreComponent },
+  { path: '#',  component:  HabilidadeComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
-  
+  exports: [RouterModule],
   
 })
-export class AppRoutingModule { 
-  
-}
+export class AppRoutingModule {}
