@@ -1,16 +1,19 @@
  <header>Meu Portfolio</header>
-<router-outlet></router-outlet>
+
 
 <nav>
 <ul>
-    <li><a href="#">Sobre</a><input type="button" value="Sobre"></li>
-    <li><a href="#">Formação</a><input type="button" value="formaçao"></li>
-    <li><a href="#">Habilidade</a><input type="button" value="habilidade"></li>
+    <li routerLinkActive=”active-class”><a routerLink="/sobre">Sobre</a></li>
+    <li routerLinkActive=”active-class”><a routerLink="/formacao">Formação</a></li>
+    <li routerLinkActive=”active-class”><a routerLink="/habilidade">Habilidade</a></li>
   </ul>
   <hr>
 </nav>
 
+<app-formacao></app-formacao>
+<app-habilidade></app-habilidade>
+<app-sobre></app-sobre> 
+<router-outlet></router-outlet>
 
 
 
-<footer></footer>

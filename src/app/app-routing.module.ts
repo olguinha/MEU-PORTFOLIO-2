@@ -7,9 +7,9 @@ import { HabilidadeComponent } from './habilidade/habilidade.component';
 
 
 export const routes: Routes = [
-  { path: '#',  component:  FormacaoComponent },
-  { path: '#',  component:  SobreComponent },
-  { path: '#',  component:  HabilidadeComponent },
+  { path: 'formacao',  component:  FormacaoComponent },
+  { path: 'sobre',  component:  SobreComponent },
+  { path: 'habilidade',  component:  HabilidadeComponent },
 ];
 
 @NgModule({
