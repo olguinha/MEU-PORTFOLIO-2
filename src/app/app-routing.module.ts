@@ -13,8 +13,8 @@ import { HOMEComponent } from './home/home.component';
 
 export const routes: Routes = [
   { path: '', component: HOMEComponent},
-  { path: 'Formacao',  component:  FormacaoComponent },
-  { path: 'sobre',  component:  SobreComponent },
+  { path: 'formacao',  component:  FormacaoComponent },
+  { path: 'sobre mim',  component:  SobreComponent },
   { path: 'habilidade',  component:  HabilidadeComponent },
 ];
 
