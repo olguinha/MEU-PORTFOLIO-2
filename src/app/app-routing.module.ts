@@ -1,13 +1,19 @@
- import { NgModule, } from '@angular/core';
+import { NgModule, } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+
 import { FormacaoComponent } from './formacao/formacao.component';
+
 import { SobreComponent } from './sobre/sobre.component';
+
 import { HabilidadeComponent } from './habilidade/habilidade.component';
+
+import { HOMEComponent } from './home/home.component';
 
 
 
 export const routes: Routes = [
-  { path: 'formacao',  component:  FormacaoComponent },
+  { path: '', component: HOMEComponent},
+  { path: 'Formacao',  component:  FormacaoComponent },
   { path: 'sobre',  component:  SobreComponent },
   { path: 'habilidade',  component:  HabilidadeComponent },
 ];
