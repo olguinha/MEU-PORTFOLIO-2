@@ -7,12 +7,12 @@ import { SobreComponent } from './sobre/sobre.component';
 
 import { HabilidadeComponent } from './habilidade/habilidade.component';
 
-import { HOMEComponent } from './home/home.component';
+
 
 
 
 export const routes: Routes = [
-  { path: '', component: HOMEComponent},
+  
   { path: 'formacao',  component:  FormacaoComponent },
   { path: 'sobre',  component:  SobreComponent },
   { path: 'habilidade',  component:  HabilidadeComponent },

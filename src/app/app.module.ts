@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { HabilidadeComponent } from './habilidade/habilidade.component';
 import { FormacaoComponent } from './formacao/formacao.component';
-import { HOMEComponent } from './home/home.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +14,7 @@ import { HOMEComponent } from './home/home.component';
     SobreComponent,
     HabilidadeComponent,
     FormacaoComponent,
-    HOMEComponent
+    
   ],
   imports: [
     BrowserModule,
