@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { SobreComponent } from './sobre/sobre.component';
 import { HabilidadeComponent } from './habilidade/habilidade.component';
 import { FormacaoComponent } from './formacao/formacao.component';
+import { TelaDashComponent } from './tela-dash/tela-dash.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { FormacaoComponent } from './formacao/formacao.component';
     SobreComponent,
     HabilidadeComponent,
     FormacaoComponent,
+    TelaDashComponent,
     
   ],
   imports: [

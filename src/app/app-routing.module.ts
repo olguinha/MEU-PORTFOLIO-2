@@ -7,15 +7,18 @@ import { SobreComponent } from './sobre/sobre.component';
 
 import { HabilidadeComponent } from './habilidade/habilidade.component';
 
+import { TelaDashComponent } from './tela-dash/tela-dash.component';
+
 
 
 
 
 export const routes: Routes = [
   
-  { path: 'formacao',  component:  FormacaoComponent },
-  { path: 'sobre',  component:  SobreComponent },
-  { path: 'habilidade',  component:  HabilidadeComponent },
+  { path: 'formacao',   component:  FormacaoComponent },
+  { path: 'sobre',      component:  SobreComponent },
+  { path: 'habilidade', component:  HabilidadeComponent },
+   {path: 'tela-dash',  component:  TelaDashComponent}
 ];
 
 @NgModule({
