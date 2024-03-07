@@ -18,7 +18,7 @@ export const routes: Routes = [
   { path: 'formacao',   component:  FormacaoComponent },
   { path: 'sobre',      component:  SobreComponent },
   { path: 'habilidade', component:  HabilidadeComponent },
-   {path: 'tela-dash',  component:  TelaDashComponent}
+   {path: '',  component:  TelaDashComponent}
 ];
 
 @NgModule({
