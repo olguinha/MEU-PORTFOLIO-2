@@ -3,3 +3,13 @@ body{
     font-size: 100%;
     background-color:rgb(66, 187, 179) ;
 }
+footer {
+    background-color: #256868;
+    color: #ecebeb;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    margin-top: 100px; 
+    width: 100%;
+  }

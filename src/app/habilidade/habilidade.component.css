@@ -1,5 +1,26 @@
-
-
 .conteudo-habi{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+    
+}
+
+.title-texto{
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 50px;
+}
+
+.title-titulo{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 50px;
+}
+
+.rounded-circle{
+    width: 100px;
+    height: 100px;
+    margin-top: 90px; 
+    margin-bottom: 80px; 
+    margin-left: 100px; 
+    margin-right: 100px;
 }
