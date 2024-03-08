@@ -16,9 +16,9 @@ import { TelaDashComponent } from './tela-dash/tela-dash.component';
 export const routes: Routes = [
   
   { path: 'formacao',   component:  FormacaoComponent },
-  { path: 'sobre',      component:  SobreComponent },
+  { path: '',      component:  SobreComponent },
   { path: 'habilidade', component:  HabilidadeComponent },
-   {path: '',    component:  TelaDashComponent}
+   {path: 'dash',    component:  TelaDashComponent}
 ];
 
 @NgModule({
